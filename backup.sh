@@ -7,10 +7,10 @@ case "$1" in
 	--help|-h|"")
 		echo \
 		"
-			YOU NEED TO ADD SOME PARAMETERS!!
-			the firs parameter: the name of backup
-			the second: the dir you want to backup
-			the third: where you want to backup
+			'U NEED TO ADD SOME PARAMETERS!!
+			the FIRST parameter: the name of backup
+			the SECOND: the dir you want to backup
+			the THIRD: where you want to backup
 		"
 	;;
 
@@ -22,8 +22,8 @@ case "$1" in
 		"
 			the arquives are:
 			*the name of the backup: $1
-			*the dir you'll backup: $2
-			*the dir where you'll send the backup: $3
+			*the dir. 'u want to backup: $2
+			*the dir. where you'll send the backup: $3
 		"
 		read -p "You are shure of that?"
 	;;
